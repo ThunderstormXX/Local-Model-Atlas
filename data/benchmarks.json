@@ -1,0 +1,641 @@
+[
+  {
+    "id": "mmlu",
+    "slug": "mmlu",
+    "name": "MMLU",
+    "category": "General reasoning",
+    "task": "Academic multitask reasoning and knowledge",
+    "metric": "Accuracy",
+    "description": "Massive Multitask Language Understanding evaluates broad subject knowledge across 57 academic and professional domains.",
+    "measures": "General knowledge, domain recall, and multiple-choice reasoning.",
+    "evaluation": "Models answer multiple-choice questions; the headline score is accuracy.",
+    "official_url": "https://arxiv.org/abs/2009.03300",
+    "sources": [
+      {
+        "name": "MMLU paper",
+        "url": "https://arxiv.org/abs/2009.03300",
+        "parser": "cache_only",
+        "kind": "paper"
+      },
+      {
+        "name": "OpenCompass LLM leaderboard",
+        "url": "https://opencompass.org.cn/leaderboard-llm",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "mmlu-pro",
+    "slug": "mmlu-pro",
+    "name": "MMLU-Pro",
+    "category": "General reasoning",
+    "task": "Harder academic multiple choice",
+    "metric": "Accuracy",
+    "description": "MMLU-Pro extends MMLU with harder, reasoning-focused questions and more answer choices.",
+    "measures": "Robust academic reasoning across 14 domains.",
+    "evaluation": "Models answer multiple-choice questions; the headline score is overall accuracy.",
+    "official_url": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro",
+    "sources": [
+      {
+        "name": "TIGER-Lab MMLU-Pro leaderboard CSV",
+        "url": "https://huggingface.co/datasets/TIGER-Lab/mmlu_pro_leaderboard_submission/raw/main/results.csv",
+        "parser": "mmlu_pro_csv",
+        "kind": "leaderboard"
+      },
+      {
+        "name": "TIGER-Lab MMLU-Pro Hugging Face Space",
+        "url": "https://huggingface.co/spaces/TIGER-Lab/MMLU-Pro",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "gpqa",
+    "slug": "gpqa",
+    "name": "GPQA",
+    "category": "General reasoning",
+    "task": "Graduate-level science QA",
+    "metric": "Accuracy",
+    "description": "GPQA contains graduate-level, Google-proof science questions written by domain experts.",
+    "measures": "Difficult scientific reasoning in biology, chemistry, and physics.",
+    "evaluation": "Models answer multiple-choice questions; the headline score is accuracy, often on GPQA Diamond.",
+    "official_url": "https://github.com/idavidrein/gpqa",
+    "sources": [
+      {
+        "name": "GPQA benchmark repository",
+        "url": "https://github.com/idavidrein/gpqa",
+        "parser": "cache_only",
+        "kind": "repository"
+      },
+      {
+        "name": "Artificial Analysis intelligence leaderboard",
+        "url": "https://artificialanalysis.ai/leaderboards/models",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "hle",
+    "slug": "hle",
+    "name": "Humanity's Last Exam",
+    "category": "General reasoning",
+    "task": "Expert-level multimodal reasoning",
+    "metric": "Accuracy",
+    "description": "Humanity's Last Exam is a broad expert-level benchmark covering many hard academic and professional topics.",
+    "measures": "Frontier reasoning and knowledge on questions intended to remain hard for advanced AI systems.",
+    "evaluation": "Models answer expert-written questions; published leaderboards report aggregate accuracy.",
+    "official_url": "https://lastexam.ai/",
+    "sources": [
+      {
+        "name": "Humanity's Last Exam official site",
+        "url": "https://lastexam.ai/",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "arc-agi",
+    "slug": "arc-agi",
+    "name": "ARC-AGI",
+    "category": "General reasoning",
+    "task": "Abstract reasoning on novel tasks",
+    "metric": "Success rate",
+    "description": "ARC-AGI evaluates adaptation to novel abstract reasoning tasks rather than memorized knowledge.",
+    "measures": "Fluid intelligence, abstraction, and adaptation under a task budget.",
+    "evaluation": "Systems solve held-out ARC tasks; the headline score is task success rate.",
+    "official_url": "https://arcprize.org/leaderboard",
+    "sources": [
+      {
+        "name": "ARC Prize v3 leaderboard JSON",
+        "url": "https://arcprize.org/media/data/leaderboard/v3.json",
+        "parser": "arc_agi_json",
+        "kind": "leaderboard"
+      },
+      {
+        "name": "ARC Prize leaderboard page",
+        "url": "https://arcprize.org/leaderboard",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "simplebench",
+    "slug": "simplebench",
+    "name": "SimpleBench",
+    "category": "General reasoning",
+    "task": "Everyday hard reasoning",
+    "metric": "Accuracy",
+    "description": "SimpleBench targets deceptively simple reasoning problems that are still difficult for frontier models.",
+    "measures": "Everyday reasoning, spatial-temporal reasoning, social reasoning, and trick-resistant comprehension.",
+    "evaluation": "Models answer a fixed set of multiple-choice questions; the headline score is accuracy.",
+    "official_url": "https://simple-bench.com/",
+    "sources": [
+      {
+        "name": "SimpleBench official site",
+        "url": "https://simple-bench.com/",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "humaneval",
+    "slug": "humaneval",
+    "name": "HumanEval",
+    "category": "Coding",
+    "task": "Python function synthesis",
+    "metric": "pass@1",
+    "description": "HumanEval evaluates whether models can synthesize Python functions that pass hidden unit tests.",
+    "measures": "Code generation correctness on small programming tasks.",
+    "evaluation": "Generated code is executed against tests; leaderboards usually report pass@1.",
+    "official_url": "https://github.com/openai/human-eval",
+    "sources": [
+      {
+        "name": "OpenAI HumanEval repository",
+        "url": "https://github.com/openai/human-eval",
+        "parser": "cache_only",
+        "kind": "repository"
+      },
+      {
+        "name": "EvalPlus leaderboard",
+        "url": "https://evalplus.github.io/leaderboard.html",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "mbpp",
+    "slug": "mbpp",
+    "name": "MBPP",
+    "category": "Coding",
+    "task": "Mostly Basic Python Problems",
+    "metric": "pass@1",
+    "description": "MBPP evaluates Python program synthesis on short, crowd-sourced programming problems.",
+    "measures": "Basic coding ability and unit-test correctness.",
+    "evaluation": "Generated programs are executed against test cases; leaderboards usually report pass@1.",
+    "official_url": "https://github.com/google-research/google-research/tree/master/mbpp",
+    "sources": [
+      {
+        "name": "Google Research MBPP repository",
+        "url": "https://github.com/google-research/google-research/tree/master/mbpp",
+        "parser": "cache_only",
+        "kind": "repository"
+      },
+      {
+        "name": "EvalPlus leaderboard",
+        "url": "https://evalplus.github.io/leaderboard.html",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "livecodebench",
+    "slug": "livecodebench",
+    "name": "LiveCodeBench",
+    "category": "Coding",
+    "task": "Contamination-resistant coding",
+    "metric": "pass@1",
+    "description": "LiveCodeBench evaluates coding ability on continuously updated programming problems.",
+    "measures": "Code generation and problem solving on recent programming tasks.",
+    "evaluation": "Generated solutions are executed against tests; the updater averages official per-problem pass@1 rows.",
+    "official_url": "https://livecodebench.github.io/leaderboard.html",
+    "sources": [
+      {
+        "name": "LiveCodeBench performance JSON",
+        "url": "https://livecodebench.github.io/performances_generation.json",
+        "parser": "livecodebench_generation_json",
+        "kind": "leaderboard"
+      },
+      {
+        "name": "LiveCodeBench leaderboard page",
+        "url": "https://livecodebench.github.io/leaderboard.html",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "aider-polyglot",
+    "slug": "aider-polyglot",
+    "name": "Aider Polyglot",
+    "category": "Coding",
+    "task": "Multi-language code editing",
+    "metric": "Percent correct",
+    "description": "Aider's polyglot benchmark tests code editing across C++, Go, Java, JavaScript, Python, and Rust.",
+    "measures": "Code editing accuracy across languages.",
+    "evaluation": "Models edit repositories; the headline score is percent correct.",
+    "official_url": "https://aider.chat/docs/leaderboards/",
+    "sources": [
+      {
+        "name": "Aider polyglot leaderboard",
+        "url": "https://aider.chat/docs/leaderboards/",
+        "parser": "aider_polyglot_html",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "bigcodebench",
+    "slug": "bigcodebench",
+    "name": "BigCodeBench",
+    "category": "Coding",
+    "task": "Practical code generation",
+    "metric": "pass@1",
+    "description": "BigCodeBench evaluates code generation on practical and library-rich programming tasks.",
+    "measures": "Instruction-following code generation and completion quality.",
+    "evaluation": "Generated code is executed against tests; this tracker uses the best available official pass@1 field per model.",
+    "official_url": "https://bigcode-bench.github.io/",
+    "sources": [
+      {
+        "name": "BigCodeBench complete/instruct JSON",
+        "url": "https://bigcode-bench.github.io/results.json",
+        "parser": "bigcodebench_json",
+        "kind": "leaderboard"
+      },
+      {
+        "name": "BigCodeBench hard JSON",
+        "url": "https://bigcode-bench.github.io/results-hard.json",
+        "parser": "bigcodebench_json",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "swe-bench-verified",
+    "slug": "swe-bench",
+    "name": "SWE-bench Verified",
+    "category": "Software Engineering",
+    "task": "Real GitHub issue resolution",
+    "metric": "% Resolved",
+    "description": "SWE-bench Verified is a human-filtered subset of real software engineering issues.",
+    "measures": "Repository understanding, patch generation, and test-passing issue resolution.",
+    "evaluation": "Agents submit patches for 500 verified tasks; the headline score is percent resolved.",
+    "official_url": "https://www.swebench.com/",
+    "sources": [
+      {
+        "name": "SWE-bench embedded official leaderboard data",
+        "url": "https://www.swebench.com/index.html",
+        "parser": "swebench_embedded_json",
+        "kind": "leaderboard",
+        "leaderboard_name": "bash-only"
+      },
+      {
+        "name": "SWE-bench Verified description",
+        "url": "https://www.swebench.com/verified.html",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "swe-bench-live",
+    "slug": "swe-bench-live",
+    "name": "SWE-bench Live",
+    "category": "Software Engineering",
+    "task": "Continuously updated SWE tasks",
+    "metric": "% Resolved",
+    "description": "SWE-bench Live is an automatically updating SWE-bench-like benchmark for current software tasks.",
+    "measures": "Agentic issue resolution on newer, multi-language, multi-OS software tasks.",
+    "evaluation": "Agents submit patches; published results report percent resolved.",
+    "official_url": "https://github.com/microsoft/SWE-bench-Live",
+    "sources": [
+      {
+        "name": "Microsoft SWE-bench-Live repository",
+        "url": "https://github.com/microsoft/SWE-bench-Live",
+        "parser": "cache_only",
+        "kind": "repository"
+      },
+      {
+        "name": "Live-SWE-agent leaderboard",
+        "url": "https://live-swe-agent.github.io/",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "terminal-bench",
+    "slug": "terminal-bench",
+    "name": "Terminal-Bench",
+    "category": "Agent Benchmarks",
+    "task": "Terminal task completion",
+    "metric": "Success rate",
+    "description": "Terminal-Bench evaluates agents on realistic terminal-based tasks.",
+    "measures": "Shell use, tool use, debugging, and multi-step task execution.",
+    "evaluation": "Agents work in terminal environments; official leaderboards report task success.",
+    "official_url": "https://www.tbench.ai/leaderboard/terminal-bench/2.0",
+    "sources": [
+      {
+        "name": "Terminal-Bench official leaderboard",
+        "url": "https://www.tbench.ai/leaderboard/terminal-bench/2.0",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "tau-bench",
+    "slug": "tau-bench",
+    "name": "TAU-Bench",
+    "category": "Agent Benchmarks",
+    "task": "Tool-agent user interaction",
+    "metric": "Success rate",
+    "description": "TAU-Bench evaluates language agents interacting with users and tools in realistic domains.",
+    "measures": "Tool use, instruction following, policy compliance, and multi-turn task success.",
+    "evaluation": "Agents complete simulated user tasks; leaderboards report pass or success rates.",
+    "official_url": "https://github.com/sierra-research/tau-bench",
+    "sources": [
+      {
+        "name": "TAU-Bench repository",
+        "url": "https://github.com/sierra-research/tau-bench",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  },
+  {
+    "id": "osworld",
+    "slug": "osworld",
+    "name": "OSWorld",
+    "category": "Agent Benchmarks",
+    "task": "Computer-use agent tasks",
+    "metric": "Success rate",
+    "description": "OSWorld evaluates multimodal agents operating real desktop applications.",
+    "measures": "Computer control, visual grounding, and end-to-end desktop task completion.",
+    "evaluation": "Agents interact with a computer environment; official results report task success.",
+    "official_url": "https://os-world.github.io/",
+    "sources": [
+      {
+        "name": "OSWorld official leaderboard",
+        "url": "https://os-world.github.io/",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "webarena",
+    "slug": "webarena",
+    "name": "WebArena",
+    "category": "Agent Benchmarks",
+    "task": "Web task completion",
+    "metric": "Success rate",
+    "description": "WebArena evaluates autonomous agents on realistic web-based tasks.",
+    "measures": "Browser navigation, planning, and web tool use.",
+    "evaluation": "Agents complete tasks on instrumented websites; leaderboards report task success.",
+    "official_url": "https://webarena.dev/",
+    "sources": [
+      {
+        "name": "WebArena official site",
+        "url": "https://webarena.dev/",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "webvoyager",
+    "slug": "webvoyager",
+    "name": "WebVoyager",
+    "category": "Agent Benchmarks",
+    "task": "Vision-enabled web navigation",
+    "metric": "Success rate",
+    "description": "WebVoyager evaluates multimodal web agents on real websites.",
+    "measures": "Visual web grounding, browser actions, and task completion.",
+    "evaluation": "Agents complete web tasks; published results report success rate.",
+    "official_url": "https://github.com/MinorJerry/WebVoyager",
+    "sources": [
+      {
+        "name": "WebVoyager repository",
+        "url": "https://github.com/MinorJerry/WebVoyager",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  },
+  {
+    "id": "bfcl",
+    "slug": "bfcl",
+    "name": "Berkeley Function Calling Leaderboard",
+    "category": "Tool Use",
+    "task": "Function and tool calling",
+    "metric": "Overall accuracy",
+    "description": "BFCL evaluates tool and function calling across live and non-live tool-use scenarios.",
+    "measures": "Function selection, argument construction, relevance, and multi-turn tool use.",
+    "evaluation": "Models produce function calls; official CSVs report aggregate accuracy.",
+    "official_url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+    "sources": [
+      {
+        "name": "BFCL live leaderboard CSV",
+        "url": "https://gorilla.cs.berkeley.edu/data_live.csv",
+        "parser": "bfcl_csv",
+        "kind": "leaderboard"
+      },
+      {
+        "name": "BFCL official leaderboard page",
+        "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "toolathlon",
+    "slug": "toolathlon",
+    "name": "ToolAthlon",
+    "category": "Tool Use",
+    "task": "Long-horizon tool use",
+    "metric": "Success score",
+    "description": "ToolAthlon, also described as Tool Decathlon, evaluates agents using diverse realistic tools.",
+    "measures": "Tool selection, sequencing, execution, and long-horizon completion.",
+    "evaluation": "Agents execute tasks across software environments; published results report success scores.",
+    "official_url": "https://github.com/hkust-nlp/Toolathlon",
+    "sources": [
+      {
+        "name": "ToolAthlon repository",
+        "url": "https://github.com/hkust-nlp/Toolathlon",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  },
+  {
+    "id": "mcp-atlas",
+    "slug": "mcp-atlas",
+    "name": "MCP Atlas",
+    "category": "Tool Use",
+    "task": "MCP server tool-use competency",
+    "metric": "Pass rate",
+    "description": "MCP Atlas evaluates tool-use competency across real Model Context Protocol servers and tools.",
+    "measures": "Multi-server tool coordination, tool selection, and agent workflow completion.",
+    "evaluation": "Agents complete MCP-backed tasks; public leaderboards report pass rate.",
+    "official_url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "sources": [
+      {
+        "name": "Scale Labs MCP Atlas leaderboard",
+        "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      },
+      {
+        "name": "MCP Atlas repository",
+        "url": "https://github.com/scaleapi/mcp-atlas",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  },
+  {
+    "id": "longbench",
+    "slug": "longbench",
+    "name": "LongBench",
+    "category": "Long Context",
+    "task": "Long-context understanding",
+    "metric": "Average score",
+    "description": "LongBench evaluates long-context understanding across single-document, multi-document, and code tasks.",
+    "measures": "Long-context comprehension, retrieval, summarization, and reasoning.",
+    "evaluation": "Models answer long-context tasks; leaderboards report average score.",
+    "official_url": "https://github.com/THUDM/LongBench",
+    "sources": [
+      {
+        "name": "LongBench repository",
+        "url": "https://github.com/THUDM/LongBench",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  },
+  {
+    "id": "ruler",
+    "slug": "ruler",
+    "name": "RULER",
+    "category": "Long Context",
+    "task": "Synthetic long-context stress tests",
+    "metric": "Average score",
+    "description": "RULER evaluates long-context models using configurable synthetic retrieval and reasoning tasks.",
+    "measures": "Needle retrieval, variable tracking, aggregation, and long-context robustness.",
+    "evaluation": "Models answer synthetic long-context tasks; reports aggregate accuracy by context length.",
+    "official_url": "https://github.com/NVIDIA/RULER",
+    "sources": [
+      {
+        "name": "NVIDIA RULER repository",
+        "url": "https://github.com/NVIDIA/RULER",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  },
+  {
+    "id": "needle-in-a-haystack",
+    "slug": "needle-in-a-haystack",
+    "name": "Needle In A Haystack",
+    "category": "Long Context",
+    "task": "Long-context retrieval",
+    "metric": "Retrieval accuracy",
+    "description": "Needle In A Haystack tests whether a model can retrieve a hidden fact from long contexts.",
+    "measures": "Long-context recall and retrieval at different depths and lengths.",
+    "evaluation": "Models answer questions about inserted facts; reports retrieval accuracy over depth and length.",
+    "official_url": "https://github.com/gkamradt/LLMTest_NeedleInAHaystack",
+    "sources": [
+      {
+        "name": "Needle In A Haystack repository",
+        "url": "https://github.com/gkamradt/LLMTest_NeedleInAHaystack",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  },
+  {
+    "id": "mmmu",
+    "slug": "mmmu",
+    "name": "MMMU",
+    "category": "Vision",
+    "task": "Multimodal expert reasoning",
+    "metric": "Accuracy",
+    "description": "MMMU evaluates college-level multimodal understanding across many disciplines.",
+    "measures": "Vision-language reasoning, charts, diagrams, and domain knowledge.",
+    "evaluation": "Models answer multimodal multiple-choice or short-answer questions; headline score is accuracy.",
+    "official_url": "https://mmmu-benchmark.github.io/",
+    "sources": [
+      {
+        "name": "MMMU official leaderboard",
+        "url": "https://mmmu-benchmark.github.io/",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "ai2d",
+    "slug": "ai2d",
+    "name": "AI2D",
+    "category": "Vision",
+    "task": "Diagram question answering",
+    "metric": "Accuracy",
+    "description": "AI2D evaluates visual question answering on science diagrams.",
+    "measures": "Diagram understanding and visual reasoning.",
+    "evaluation": "Models answer questions about diagrams; leaderboards report accuracy.",
+    "official_url": "https://allenai.org/data/diagrams",
+    "sources": [
+      {
+        "name": "AI2D dataset page",
+        "url": "https://allenai.org/data/diagrams",
+        "parser": "cache_only",
+        "kind": "dataset"
+      },
+      {
+        "name": "OpenCompass VLM leaderboard",
+        "url": "https://opencompass.org.cn/leaderboard-multimodal",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "docvqa",
+    "slug": "docvqa",
+    "name": "DocVQA",
+    "category": "Vision",
+    "task": "Document visual question answering",
+    "metric": "ANLS / accuracy",
+    "description": "DocVQA evaluates visual question answering over document images.",
+    "measures": "OCR, document layout understanding, and grounded question answering.",
+    "evaluation": "Models answer document questions; official evaluations report ANLS-style scores.",
+    "official_url": "https://rrc.cvc.uab.es/?ch=17",
+    "sources": [
+      {
+        "name": "DocVQA official challenge",
+        "url": "https://rrc.cvc.uab.es/?ch=17",
+        "parser": "cache_only",
+        "kind": "leaderboard"
+      }
+    ]
+  },
+  {
+    "id": "omnidocbench",
+    "slug": "omnidocbench",
+    "name": "OmniDocBench",
+    "category": "Vision",
+    "task": "Document parsing and understanding",
+    "metric": "Composite score",
+    "description": "OmniDocBench evaluates document understanding and parsing across diverse layouts.",
+    "measures": "OCR, layout parsing, formula/table understanding, and document reasoning.",
+    "evaluation": "Systems parse and answer over document data; published results use composite metrics.",
+    "official_url": "https://github.com/opendatalab/OmniDocBench",
+    "sources": [
+      {
+        "name": "OmniDocBench repository",
+        "url": "https://github.com/opendatalab/OmniDocBench",
+        "parser": "cache_only",
+        "kind": "repository"
+      }
+    ]
+  }
+]

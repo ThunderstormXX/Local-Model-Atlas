@@ -1,0 +1,35 @@
+name: Update leaderboards
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regenerate benchmark pages
+        run: python scripts/update.py
+
+      - name: Run tests
+        run: python -m unittest discover -s tests
+
+      - name: Open update pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: codex/update-local-llm-leaderboard
+          title: "Update local LLM leaderboard data"
+          commit-message: "Update generated leaderboard tables"
+          body: |
+            Automated refresh from `python scripts/update.py`.

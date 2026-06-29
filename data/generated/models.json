@@ -1,0 +1,401 @@
+{
+  "Arch-Agent-32B": {
+    "active_params_b": 32,
+    "architecture": "dense",
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "Arch-Agent-32B",
+    "open_weight": true,
+    "organization": "Katanemo",
+    "quantization": [],
+    "release_date": null,
+    "total_params_b": 32
+  },
+  "BitAgent-Bounty-8B": {
+    "active_params_b": 8,
+    "architecture": "dense",
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "BitAgent-Bounty-8B",
+    "open_weight": true,
+    "organization": "BitAgent",
+    "quantization": [],
+    "release_date": null,
+    "total_params_b": 8
+  },
+  "Claude Opus 4.6": {
+    "active_params_b": null,
+    "architecture": null,
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "Claude Opus 4.6",
+    "open_weight": false,
+    "organization": "Anthropic",
+    "quantization": [],
+    "release_date": "2025-12-17",
+    "total_params_b": null
+  },
+  "Claude Opus 4.8": {
+    "active_params_b": null,
+    "architecture": null,
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "Claude Opus 4.8",
+    "open_weight": false,
+    "organization": "Anthropic",
+    "quantization": [],
+    "release_date": "2026-06-01",
+    "total_params_b": null
+  },
+  "Claude Sonnet 4.5": {
+    "active_params_b": null,
+    "architecture": null,
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "Claude Sonnet 4.5",
+    "open_weight": false,
+    "organization": "Anthropic",
+    "quantization": [],
+    "release_date": "2025-09-29",
+    "total_params_b": null
+  },
+  "DeepSeek-R1-Distill-Qwen-14B": {
+    "active_params_b": 14,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Qwen-14B",
+    "name": "DeepSeek-R1-Distill-Qwen-14B",
+    "open_weight": true,
+    "organization": "DeepSeek",
+    "quantization": [
+      "AWQ",
+      "GGUF"
+    ],
+    "release_date": "2025-01-20",
+    "total_params_b": 14
+  },
+  "DeepSeek-V3-0324": {
+    "active_params_b": 37,
+    "architecture": "MoE",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+    "name": "DeepSeek-V3-0324",
+    "open_weight": true,
+    "organization": "DeepSeek",
+    "quantization": [
+      "FP8",
+      "GGUF"
+    ],
+    "release_date": "2025-03-24",
+    "total_params_b": 671
+  },
+  "GLM-4.5": {
+    "active_params_b": 32,
+    "architecture": "MoE",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/zai-org/GLM-4.5",
+    "name": "GLM-4.5",
+    "open_weight": true,
+    "organization": "Z.ai",
+    "quantization": [
+      "INT4",
+      "GGUF"
+    ],
+    "release_date": "2025-07-28",
+    "total_params_b": 355
+  },
+  "GPT-4o": {
+    "active_params_b": null,
+    "architecture": null,
+    "context_length": 128000,
+    "huggingface_url": null,
+    "name": "GPT-4o",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "quantization": [],
+    "release_date": "2024-05-13",
+    "total_params_b": null
+  },
+  "GPT-5": {
+    "active_params_b": null,
+    "architecture": null,
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "GPT-5",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "quantization": [],
+    "release_date": null,
+    "total_params_b": null
+  },
+  "GPT-5.5": {
+    "active_params_b": null,
+    "architecture": null,
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "GPT-5.5",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "quantization": [],
+    "release_date": "2026-04-23",
+    "total_params_b": null
+  },
+  "Gemini 3.1 Pro Preview": {
+    "active_params_b": null,
+    "architecture": null,
+    "context_length": null,
+    "huggingface_url": null,
+    "name": "Gemini 3.1 Pro Preview",
+    "open_weight": false,
+    "organization": "Google",
+    "quantization": [],
+    "release_date": "2026-03-05",
+    "total_params_b": null
+  },
+  "Gemma-3-12B-IT": {
+    "active_params_b": 12,
+    "architecture": "dense",
+    "context_length": 128000,
+    "huggingface_url": "https://huggingface.co/google/gemma-3-12b-it",
+    "name": "Gemma-3-12B-IT",
+    "open_weight": true,
+    "organization": "Google",
+    "quantization": [
+      "GGUF"
+    ],
+    "release_date": "2025-03-12",
+    "total_params_b": 12
+  },
+  "Gemma-3-27B-IT": {
+    "active_params_b": 27,
+    "architecture": "dense",
+    "context_length": 128000,
+    "huggingface_url": "https://huggingface.co/google/gemma-3-27b-it",
+    "name": "Gemma-3-27B-IT",
+    "open_weight": true,
+    "organization": "Google",
+    "quantization": [
+      "GGUF"
+    ],
+    "release_date": "2025-03-12",
+    "total_params_b": 27
+  },
+  "Kimi-K2-Instruct": {
+    "active_params_b": 32,
+    "architecture": "MoE",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+    "name": "Kimi-K2-Instruct",
+    "open_weight": true,
+    "organization": "Moonshot AI",
+    "quantization": [
+      "FP8"
+    ],
+    "release_date": "2025-07-11",
+    "total_params_b": 1000
+  },
+  "Llama-3-70B-Instruct": {
+    "active_params_b": 70,
+    "architecture": "dense",
+    "context_length": 8192,
+    "huggingface_url": "https://huggingface.co/meta-llama/Meta-Llama-3-70B-Instruct",
+    "name": "Llama-3-70B-Instruct",
+    "open_weight": true,
+    "organization": "Meta",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2024-04-18",
+    "total_params_b": 70
+  },
+  "Llama-3-8B-Instruct": {
+    "active_params_b": 8,
+    "architecture": "dense",
+    "context_length": 8192,
+    "huggingface_url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct",
+    "name": "Llama-3-8B-Instruct",
+    "open_weight": true,
+    "organization": "Meta",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2024-04-18",
+    "total_params_b": 8
+  },
+  "Llama-3.1-8B-Instruct": {
+    "active_params_b": 8,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+    "name": "Llama-3.1-8B-Instruct",
+    "open_weight": true,
+    "organization": "Meta",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2024-07-23",
+    "total_params_b": 8
+  },
+  "Llama-3.3-70B-Instruct": {
+    "active_params_b": 70,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+    "name": "Llama-3.3-70B-Instruct",
+    "open_weight": true,
+    "organization": "Meta",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2024-12-06",
+    "total_params_b": 70
+  },
+  "Mistral-7B-Instruct-v0.2": {
+    "active_params_b": 7,
+    "architecture": "dense",
+    "context_length": 32768,
+    "huggingface_url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.2",
+    "name": "Mistral-7B-Instruct-v0.2",
+    "open_weight": true,
+    "organization": "Mistral AI",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2023-12-11",
+    "total_params_b": 7
+  },
+  "Mistral-Small-2506": {
+    "active_params_b": 24,
+    "architecture": "dense",
+    "context_length": 32768,
+    "huggingface_url": "https://huggingface.co/mistralai/Mistral-Small-3.2-24B-Instruct-2506",
+    "name": "Mistral-Small-2506",
+    "open_weight": true,
+    "organization": "Mistral AI",
+    "quantization": [
+      "GGUF"
+    ],
+    "release_date": "2025-06-05",
+    "total_params_b": 24
+  },
+  "Phi-3.5-mini-instruct": {
+    "active_params_b": 3.8,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/microsoft/Phi-3.5-mini-instruct",
+    "name": "Phi-3.5-mini-instruct",
+    "open_weight": true,
+    "organization": "Microsoft",
+    "quantization": [
+      "ONNX",
+      "GGUF"
+    ],
+    "release_date": "2024-08-20",
+    "total_params_b": 3.8
+  },
+  "Qwen2.5-Coder-32B-Instruct": {
+    "active_params_b": 32,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
+    "name": "Qwen2.5-Coder-32B-Instruct",
+    "open_weight": true,
+    "organization": "Qwen",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2024-11-12",
+    "total_params_b": 32
+  },
+  "Qwen3-14B": {
+    "active_params_b": 14,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/Qwen/Qwen3-14B",
+    "name": "Qwen3-14B",
+    "open_weight": true,
+    "organization": "Qwen",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2025-04-29",
+    "total_params_b": 14
+  },
+  "Qwen3-32B": {
+    "active_params_b": 32,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/Qwen/Qwen3-32B",
+    "name": "Qwen3-32B",
+    "open_weight": true,
+    "organization": "Qwen",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2025-04-29",
+    "total_params_b": 32
+  },
+  "Qwen3-8B": {
+    "active_params_b": 8,
+    "architecture": "dense",
+    "context_length": 131072,
+    "huggingface_url": "https://huggingface.co/Qwen/Qwen3-8B",
+    "name": "Qwen3-8B",
+    "open_weight": true,
+    "organization": "Qwen",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2025-04-29",
+    "total_params_b": 8
+  },
+  "Qwen3-Coder-30B-A3B-Instruct": {
+    "active_params_b": 3,
+    "architecture": "MoE",
+    "context_length": 262144,
+    "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Coder-30B-A3B-Instruct",
+    "name": "Qwen3-Coder-30B-A3B-Instruct",
+    "open_weight": true,
+    "organization": "Qwen",
+    "quantization": [
+      "AWQ",
+      "GPTQ",
+      "GGUF"
+    ],
+    "release_date": "2025-07-22",
+    "total_params_b": 30
+  },
+  "Qwen3-Coder-480B-A35B-Instruct": {
+    "active_params_b": 35,
+    "architecture": "MoE",
+    "context_length": 262144,
+    "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "name": "Qwen3-Coder-480B-A35B-Instruct",
+    "open_weight": true,
+    "organization": "Qwen",
+    "quantization": [
+      "AWQ",
+      "GPTQ"
+    ],
+    "release_date": "2025-07-22",
+    "total_params_b": 480
+  }
+}
