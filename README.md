@@ -18,14 +18,14 @@ Generated tables prioritize official leaderboards and machine-readable assets. S
 | [MMLU-Pro](benchmarks/mmlu-pro.md) | Harder academic multiple choice | Gemini 3.1 Pro 91.16% | Qwen3.5-9B 82.50% | -8.66% | 236 |
 | [GPQA](benchmarks/gpqa.md) | Graduate-level science QA | n/a | n/a | n/a | 0 |
 | [Humanity's Last Exam](benchmarks/hle.md) | Expert-level multimodal reasoning | n/a | n/a | n/a | 0 |
-| [ARC-AGI](benchmarks/arc-agi.md) | Abstract reasoning on novel tasks | Claude Opus 4.8 1.52% | n/a | n/a | 7 |
+| [ARC-AGI](benchmarks/arc-agi.md) | Abstract reasoning on novel tasks | GPT-6 Astra - Provider Adapter (High) 99.95% | n/a | n/a | 24 |
 | [SimpleBench](benchmarks/simplebench.md) | Everyday hard reasoning | n/a | n/a | n/a | 0 |
 | [HumanEval](benchmarks/humaneval.md) | Python function synthesis | n/a | n/a | n/a | 0 |
 | [MBPP](benchmarks/mbpp.md) | Mostly Basic Python Problems | n/a | n/a | n/a | 0 |
 | [LiveCodeBench](benchmarks/livecodebench.md) | Contamination-resistant coding | O4-Mini (High) 87.30% | n/a | n/a | 25 |
 | [Aider Polyglot](benchmarks/aider-polyglot.md) | Multi-language code editing | GPT-5 88.00% | n/a | n/a | 54 |
 | [BigCodeBench](benchmarks/bigcodebench.md) | Practical code generation | [GPT-4o](https://openai.com/index/hello-gpt-4o/) 51.10% | [Qwen2.5-Coder-14B](https://huggingface.co/Qwen/Qwen2.5-Coder-14B-Instruct) 48.20% | -2.90% | 188 |
-| [SWE-bench Verified](benchmarks/swe-bench.md) | Real GitHub issue resolution | claude-4-5-opus 76.80% | n/a | n/a | 34 |
+| [SWE-bench Verified](benchmarks/swe-bench.md) | Real GitHub issue resolution | n/a | n/a | n/a | 0 |
 | [SWE-bench Live](benchmarks/swe-bench-live.md) | Continuously updated SWE tasks | n/a | n/a | n/a | 0 |
 | [Terminal-Bench](benchmarks/terminal-bench.md) | Terminal task completion | n/a | n/a | n/a | 0 |
 | [TAU-Bench](benchmarks/tau-bench.md) | Tool-agent user interaction | n/a | n/a | n/a | 0 |

@@ -11,7 +11,7 @@ Every benchmark source registered for the updater is listed below. `Records` is 
 | GPQA | [GPQA benchmark repository](https://github.com/idavidrein/gpqa) | cache_only | 0 | data/cache/e2bd9cf805378855.html |
 | GPQA | [Artificial Analysis intelligence leaderboard](https://artificialanalysis.ai/leaderboards/models) | cache_only | 0 | data/cache/223f4e31d7862bfc.html |
 | Humanity's Last Exam | [Humanity's Last Exam official site](https://lastexam.ai/) | cache_only | 0 | data/cache/05665ed86ec75ee7.html |
-| ARC-AGI | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) | arc_agi_json | 7 | data/cache/c17ff3effa79c1ab.json |
+| ARC-AGI | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) | arc_agi_json | 39 | data/cache/c17ff3effa79c1ab.json |
 | ARC-AGI | [ARC Prize leaderboard page](https://arcprize.org/leaderboard) | cache_only | 0 | data/cache/a27f2ad202a2b5a7.html |
 | SimpleBench | [SimpleBench official site](https://simple-bench.com/) | cache_only | 0 | data/cache/74442715952b612f.html |
 | HumanEval | [OpenAI HumanEval repository](https://github.com/openai/human-eval) | cache_only | 0 | data/cache/9edbbd4ae30cd1f8.html |
@@ -23,7 +23,7 @@ Every benchmark source registered for the updater is listed below. `Records` is 
 | Aider Polyglot | [Aider polyglot leaderboard](https://aider.chat/docs/leaderboards/) | aider_polyglot_html | 69 | data/cache/5b92e98d55fe64ec.html |
 | BigCodeBench | [BigCodeBench complete/instruct JSON](https://bigcode-bench.github.io/results.json) | bigcodebench_json | 156 | data/cache/ee63a6d1e7e072ff.json |
 | BigCodeBench | [BigCodeBench hard JSON](https://bigcode-bench.github.io/results-hard.json) | bigcodebench_json | 202 | data/cache/ff944c0d8157101d.json |
-| SWE-bench Verified | [SWE-bench embedded official leaderboard data](https://www.swebench.com/index.html) | swebench_embedded_json | 48 | data/cache/af84bec01ced42d4.html |
+| SWE-bench Verified | [SWE-bench embedded official leaderboard data](https://www.swebench.com/index.html) | swebench_embedded_json | 0 | data/cache/af84bec01ced42d4.html |
 | SWE-bench Verified | [SWE-bench Verified description](https://www.swebench.com/verified.html) | cache_only | 0 | data/cache/af47372f0f81cf3e.html |
 | SWE-bench Live | [Microsoft SWE-bench-Live repository](https://github.com/microsoft/SWE-bench-Live) | cache_only | 0 | data/cache/aca51d6c991912b5.html |
 | SWE-bench Live | [Live-SWE-agent leaderboard](https://live-swe-agent.github.io/) | cache_only | 0 | data/cache/f5d167c2f8e10958.html |

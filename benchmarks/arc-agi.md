@@ -23,13 +23,16 @@ Official leaderboard or source: [https://arcprize.org/leaderboard](https://arcpr
 
 | Rank | Model | Open Weight | Params | Score | Source |
 | ---- | ----- | ----------- | ------ | ----- | ------ |
-| 1 | Claude Opus 4.8 | no | unknown | 1.52% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
-| 2 | Claude Opus 4.6 | no | unknown | 0.51% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
-| 3 | GPT-5.5 | no | unknown | 0.43% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
-| 4 | Gemini 3.1 Pro Preview | no | unknown | 0.42% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
-| 5 | GPT-5 | no | unknown | 0.21% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
-| 6 | Opus 4.7 (High) | no | unknown | 0.18% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
-| 7 | Grok 4.20 (Beta Reasoning) | no | unknown | 0.09% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 1 | GPT-6 Astra - Provider Adapter (High) | no | unknown | 99.95% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 2 | GPT-6 Astra - Provider Adapter (Max) | no | unknown | 98.55% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 3 | GPT-6 Astra - Provider Adapter (XHigh) | no | unknown | 98.44% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 4 | GPT-6 Astra - Provider Adapter (Medium) | no | unknown | 98.44% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 5 | GPT-6 Astra - Provider Adapter (Low) | no | unknown | 98.03% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 6 | GPT-6 Astra - Provider Adapter (None) | no | unknown | 96.72% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 7 | GPT-6 Astra (Max) | no | unknown | 62.71% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 8 | GPT-6 Astra (XHigh) | no | unknown | 59.34% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 9 | GPT-6 Astra (High) | no | unknown | 54.82% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
+| 10 | GPT-6 Astra (Medium) | no | unknown | 38.59% | [ARC Prize v3 leaderboard JSON](https://arcprize.org/media/data/leaderboard/v3.json) |
 
 ## Top Open Models
 
