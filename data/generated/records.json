@@ -1271,6 +1271,371 @@
   {
     "active_params_b": null,
     "aliases_seen": [
+      "GPT-6 Astra - Provider Adapter (High)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra - Provider Adapter (High)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra - Provider Adapter (High)",
+    "release_date": "2026-09-02",
+    "score": 99.9457,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra - Provider Adapter (Max)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra - Provider Adapter (Max)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra - Provider Adapter (Max)",
+    "release_date": "2026-09-02",
+    "score": 98.5507,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra - Provider Adapter (XHigh)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra - Provider Adapter (XHigh)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra - Provider Adapter (XHigh)",
+    "release_date": "2026-09-02",
+    "score": 98.4416,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra - Provider Adapter (Medium)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra - Provider Adapter (Medium)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra - Provider Adapter (Medium)",
+    "release_date": "2026-09-02",
+    "score": 98.4386,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra - Provider Adapter (Low)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra - Provider Adapter (Low)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra - Provider Adapter (Low)",
+    "release_date": "2026-09-02",
+    "score": 98.0284,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra - Provider Adapter (None)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra - Provider Adapter (None)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra - Provider Adapter (None)",
+    "release_date": "2026-09-02",
+    "score": 96.7202,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra (Max)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra (Max)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra (Max)",
+    "release_date": "2026-09-02",
+    "score": 62.7128,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra (XHigh)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra (XHigh)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra (XHigh)",
+    "release_date": "2026-09-02",
+    "score": 59.343,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra (High)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra (High)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra (High)",
+    "release_date": "2026-09-02",
+    "score": 54.8191,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra (Medium)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra (Medium)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra (Medium)",
+    "release_date": "2026-09-02",
+    "score": 38.5876,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra (None)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra (None)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra (None)",
+    "release_date": "2026-09-02",
+    "score": 35.1779,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "Claude Opus 5 (High)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "Claude Opus 5 (High)",
+    "open_weight": false,
+    "organization": "Anthropic",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "Claude Opus 5 (High)",
+    "release_date": "2026-07-24",
+    "score": 30.16,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-6 Astra (Low)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "GPT-6 Astra (Low)",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-6 Astra (Low)",
+    "release_date": "2026-09-02",
+    "score": 17.4522,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "GPT-5.4 (High)",
+      "GPT-5.6 Luna (High)",
+      "GPT-5.6 Luna (Low)",
+      "GPT-5.6 Luna (Max)",
+      "GPT-5.6 Luna (Medium)",
+      "GPT-5.6 Luna (XHigh)",
+      "GPT-5.6 Sol (High)",
+      "GPT-5.6 Sol (Low)",
+      "GPT-5.6 Sol (Max)",
+      "GPT-5.6 Sol (Medium)",
+      "GPT-5.6 Sol (XHigh)",
+      "GPT-5.6 Terra (High)",
+      "GPT-5.6 Terra (Low)",
+      "GPT-5.6 Terra (Max)",
+      "GPT-5.6 Terra (Medium)",
+      "GPT-5.6 Terra (XHigh)"
+    ],
+    "architecture": null,
+    "benchmark": "arc-agi",
+    "context_length": null,
+    "huggingface_url": null,
+    "model": "GPT-5",
+    "name": "GPT-5",
+    "open_weight": false,
+    "organization": "OpenAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "GPT-5.6 Sol (Max)",
+    "release_date": "2026-07-09",
+    "score": 7.78,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "total_params_b": null,
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "Grok 4.6 (XHigh)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "Grok 4.6 (XHigh)",
+    "open_weight": false,
+    "organization": "xAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "Grok 4.6 (XHigh)",
+    "release_date": "2026-08-11",
+    "score": 2.11,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
       "Claude Opus 4.8 (High)"
     ],
     "architecture": null,
@@ -1383,25 +1748,66 @@
   {
     "active_params_b": null,
     "aliases_seen": [
-      "GPT-5.4 (High)"
+      "Grok 4.5 (Medium)"
     ],
-    "architecture": null,
     "benchmark": "arc-agi",
-    "context_length": null,
-    "huggingface_url": null,
-    "model": "GPT-5",
-    "name": "GPT-5",
+    "model": "Grok 4.5 (Medium)",
     "open_weight": false,
-    "organization": "OpenAI",
+    "organization": "xAI",
     "param_bucket": "unknown",
     "quantization": [],
-    "raw_model": "GPT-5.4 (High)",
-    "release_date": "2026-03-05",
-    "score": 0.21,
+    "raw_model": "Grok 4.5 (Medium)",
+    "release_date": "2026-07-16",
+    "score": 0.32,
     "source_kind": "leaderboard",
     "source_name": "ARC Prize v3 leaderboard JSON",
     "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
-    "total_params_b": null,
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "Grok 4.5 (High)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "Grok 4.5 (High)",
+    "open_weight": false,
+    "organization": "xAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "Grok 4.5 (High)",
+    "release_date": "2026-07-16",
+    "score": 0.3,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
+    "vram_gb": {
+      "fp16_bf16": null,
+      "int4_gguf": null,
+      "int8": null
+    }
+  },
+  {
+    "active_params_b": null,
+    "aliases_seen": [
+      "Grok 4.5 (Low)"
+    ],
+    "benchmark": "arc-agi",
+    "model": "Grok 4.5 (Low)",
+    "open_weight": false,
+    "organization": "xAI",
+    "param_bucket": "unknown",
+    "quantization": [],
+    "raw_model": "Grok 4.5 (Low)",
+    "release_date": "2026-07-16",
+    "score": 0.26,
+    "source_kind": "leaderboard",
+    "source_name": "ARC Prize v3 leaderboard JSON",
+    "source_url": "https://arcprize.org/media/data/leaderboard/v3.json",
     "vram_gb": {
       "fp16_bf16": null,
       "int4_gguf": null,
@@ -14832,856 +15238,6 @@
       "fp16_bf16": 0.3,
       "int4_gguf": 0.1,
       "int8": 0.2
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-4-5-opus"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "claude-4-5-opus",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-4-5-opus",
-    "release_date": "2026-02-17",
-    "score": 76.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gemini-3-flash-preview"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "Gemini 3 Flash Preview",
-    "open_weight": false,
-    "organization": "Google DeepMind",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gemini-3-flash-preview",
-    "release_date": "2026-02-17",
-    "score": 75.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "minimax-m2.5"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "minimax-m2.5",
-    "open_weight": null,
-    "organization": "Minimax",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "minimax-m2.5",
-    "release_date": "2026-02-17",
-    "score": 75.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-opus-4-6"
-    ],
-    "architecture": null,
-    "benchmark": "swe-bench-verified",
-    "context_length": null,
-    "huggingface_url": null,
-    "model": "Claude Opus 4.6",
-    "name": "Claude Opus 4.6",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-opus-4-6",
-    "release_date": "2026-02-17",
-    "score": 75.6,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": null,
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-opus-4-5-20251101"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "claude-opus-4-5-20251101",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-opus-4-5-20251101",
-    "release_date": "2025-11-24",
-    "score": 74.4,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gemini-3-pro-preview"
-    ],
-    "architecture": null,
-    "benchmark": "swe-bench-verified",
-    "context_length": null,
-    "huggingface_url": null,
-    "model": "Gemini 3.1 Pro Preview",
-    "name": "Gemini 3.1 Pro Preview",
-    "open_weight": false,
-    "organization": "Google DeepMind",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gemini-3-pro-preview",
-    "release_date": "2025-11-18",
-    "score": 74.2,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": null,
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "glm-5"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "GLM-5",
-    "open_weight": true,
-    "organization": "Z-AI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "glm-5",
-    "release_date": "2026-02-17",
-    "score": 72.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gpt-5-2",
-      "gpt-5-2-codex",
-      "gpt-5-2025-08-07",
-      "gpt-5-mini-2025-08-07",
-      "gpt-5-nano-2025-08-07",
-      "gpt-5.1-2025-11-13",
-      "gpt-5.1-codex",
-      "gpt-5.2-2025-12-11"
-    ],
-    "architecture": null,
-    "benchmark": "swe-bench-verified",
-    "context_length": null,
-    "huggingface_url": null,
-    "model": "GPT-5",
-    "name": "GPT-5",
-    "open_weight": false,
-    "organization": "OpenAI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gpt-5-2-codex",
-    "release_date": "2026-02-19",
-    "score": 72.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": null,
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-sonnet-4-5-20250929"
-    ],
-    "architecture": null,
-    "benchmark": "swe-bench-verified",
-    "context_length": null,
-    "huggingface_url": null,
-    "model": "Claude Sonnet 4.5",
-    "name": "Claude Sonnet 4.5",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-sonnet-4-5-20250929",
-    "release_date": "2026-02-17",
-    "score": 71.4,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": null,
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "kimi-k2.5"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "Kimi-K2.5",
-    "open_weight": true,
-    "organization": "Moonshot AI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "kimi-k2.5",
-    "release_date": "2026-02-17",
-    "score": 70.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "deepseek-v3.2",
-      "deepseek-v3.2-reasoner"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "DeepSeek-V3",
-    "open_weight": true,
-    "organization": "DeepSeek",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "deepseek-v3.2",
-    "release_date": "2026-02-17",
-    "score": 70.0,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-4-opus-20250514"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "claude-4-opus-20250514",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-4-opus-20250514",
-    "release_date": "2025-08-02",
-    "score": 67.6,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-haiku-4-5-20251001"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "claude-haiku-4-5-20251001",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-haiku-4-5-20251001",
-    "release_date": "2026-02-17",
-    "score": 66.6,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-4-sonnet-20250514"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "claude-4-sonnet-20250514",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-4-sonnet-20250514",
-    "release_date": "2025-07-26",
-    "score": 64.93,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": 32.0,
-    "aliases_seen": [
-      "Kimi-K2-Instruct",
-      "Kimi-K2-Thinking"
-    ],
-    "architecture": "MoE",
-    "benchmark": "swe-bench-verified",
-    "context_length": 131072,
-    "huggingface_url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
-    "model": "Kimi-K2-Instruct",
-    "name": "Kimi-K2-Instruct",
-    "open_weight": true,
-    "organization": "Moonshot AI",
-    "param_bucket": ">70B",
-    "quantization": [
-      "FP8"
-    ],
-    "raw_model": "Kimi-K2-Thinking",
-    "release_date": "2025-12-10",
-    "score": 63.4,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": 1000.0,
-    "vram_gb": {
-      "fp16_bf16": 2300.0,
-      "int4_gguf": 575.0,
-      "int8": 1150.0
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "minimax-m2"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "minimax-m2",
-    "open_weight": null,
-    "organization": "Minimax",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "minimax-m2",
-    "release_date": "2025-11-24",
-    "score": 61.0,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "o3-20250416"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "o3-20250416",
-    "open_weight": false,
-    "organization": "OpenAI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "o3-20250416",
-    "release_date": "2025-07-26",
-    "score": 58.4,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "devstral-small-2512"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "devstral-small-2512",
-    "open_weight": true,
-    "organization": "mistral",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "devstral-small-2512",
-    "release_date": "2025-12-09",
-    "score": 56.4,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "glm-4.6"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "GLM-4.6",
-    "open_weight": true,
-    "organization": "Z.ai",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "glm-4.6",
-    "release_date": "2025-12-01",
-    "score": 55.4,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": 35.0,
-    "aliases_seen": [
-      "Qwen3-Coder-480B-A35B-Instruct"
-    ],
-    "architecture": "MoE",
-    "benchmark": "swe-bench-verified",
-    "context_length": 262144,
-    "huggingface_url": "https://huggingface.co/Qwen/Qwen3-Coder-480B-A35B-Instruct",
-    "model": "Qwen3-Coder-480B-A35B-Instruct",
-    "name": "Qwen3-Coder-480B-A35B-Instruct",
-    "open_weight": true,
-    "organization": "Qwen",
-    "param_bucket": ">70B",
-    "quantization": [
-      "AWQ",
-      "GPTQ"
-    ],
-    "raw_model": "Qwen3-Coder-480B-A35B-Instruct",
-    "release_date": "2025-08-02",
-    "score": 55.4,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": 480.0,
-    "vram_gb": {
-      "fp16_bf16": 1104.0,
-      "int4_gguf": 276.0,
-      "int8": 552.0
-    }
-  },
-  {
-    "active_params_b": 32.0,
-    "aliases_seen": [
-      "GLM-4.5"
-    ],
-    "architecture": "MoE",
-    "benchmark": "swe-bench-verified",
-    "context_length": 131072,
-    "huggingface_url": "https://huggingface.co/zai-org/GLM-4.5",
-    "model": "GLM-4.5",
-    "name": "GLM-4.5",
-    "open_weight": true,
-    "organization": "Z.ai",
-    "param_bucket": ">70B",
-    "quantization": [
-      "INT4",
-      "GGUF"
-    ],
-    "raw_model": "GLM-4.5",
-    "release_date": "2025-08-22",
-    "score": 54.2,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": 355.0,
-    "vram_gb": {
-      "fp16_bf16": 816.5,
-      "int4_gguf": 204.1,
-      "int8": 408.2
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "devstral-2512"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "devstral-2512",
-    "open_weight": true,
-    "organization": "mistral",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "devstral-2512",
-    "release_date": "2025-12-09",
-    "score": 53.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gemini-2.5-pro"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "Gemini 2.5 Pro",
-    "open_weight": false,
-    "organization": "Google DeepMind",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gemini-2.5-pro",
-    "release_date": "2025-07-26",
-    "score": 53.6,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "claude-3-7-sonnet-20250219"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "claude-3-7-sonnet-20250219",
-    "open_weight": false,
-    "organization": "Anthropic",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "claude-3-7-sonnet-20250219",
-    "release_date": "2025-07-20",
-    "score": 52.8,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "o4-mini-20250416"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "o4-mini-20250416",
-    "open_weight": false,
-    "organization": "OpenAI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "o4-mini-20250416",
-    "release_date": "2025-07-26",
-    "score": 45.0,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gpt-4.1-20250414"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "gpt-4.1-20250414",
-    "open_weight": false,
-    "organization": "OpenAI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gpt-4.1-20250414",
-    "release_date": "2025-07-26",
-    "score": 39.58,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gemini-2.5-flash"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "Gemini 2.5 Flash",
-    "open_weight": false,
-    "organization": "Google DeepMind",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gemini-2.5-flash",
-    "release_date": "2025-07-26",
-    "score": 28.73,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": 120.0,
-    "aliases_seen": [
-      "gpt-oss-120b"
-    ],
-    "architecture": "dense",
-    "benchmark": "swe-bench-verified",
-    "model": "gpt-oss-120b",
-    "open_weight": true,
-    "organization": "OpenAI",
-    "param_bucket": ">70B",
-    "quantization": [],
-    "raw_model": "gpt-oss-120b",
-    "release_date": "2025-08-07",
-    "score": 26.0,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": 120.0,
-    "vram_gb": {
-      "fp16_bf16": 276.0,
-      "int4_gguf": 69.0,
-      "int8": 138.0
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gpt-4.1-mini-20250414"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "gpt-4.1-mini-20250414",
-    "open_weight": false,
-    "organization": "OpenAI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gpt-4.1-mini-20250414",
-    "release_date": "2025-07-20",
-    "score": 23.94,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gpt-4o-20241120"
-    ],
-    "architecture": null,
-    "benchmark": "swe-bench-verified",
-    "context_length": 128000,
-    "huggingface_url": null,
-    "model": "GPT-4o",
-    "name": "GPT-4o",
-    "open_weight": false,
-    "organization": "OpenAI",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gpt-4o-20241120",
-    "release_date": "2025-07-20",
-    "score": 21.62,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": null,
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "llama-4-maverick-instruct"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "llama-4-maverick-instruct",
-    "open_weight": true,
-    "organization": "Meta",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "llama-4-maverick-instruct",
-    "release_date": "2025-07-20",
-    "score": 21.04,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "gemini-2.0-flash"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "Gemini 2.0 Flash",
-    "open_weight": false,
-    "organization": "Google DeepMind",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "gemini-2.0-flash",
-    "release_date": "2025-07-26",
-    "score": 13.52,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": null,
-    "aliases_seen": [
-      "llama-4-scout-instruct"
-    ],
-    "benchmark": "swe-bench-verified",
-    "model": "llama-4-scout-instruct",
-    "open_weight": true,
-    "organization": "Meta",
-    "param_bucket": "unknown",
-    "quantization": [],
-    "raw_model": "llama-4-scout-instruct",
-    "release_date": "2025-07-20",
-    "score": 9.06,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "vram_gb": {
-      "fp16_bf16": null,
-      "int4_gguf": null,
-      "int8": null
-    }
-  },
-  {
-    "active_params_b": 32.0,
-    "aliases_seen": [
-      "Qwen2.5-Coder-32B-Instruct"
-    ],
-    "architecture": "dense",
-    "benchmark": "swe-bench-verified",
-    "context_length": 131072,
-    "huggingface_url": "https://huggingface.co/Qwen/Qwen2.5-Coder-32B-Instruct",
-    "model": "Qwen2.5-Coder-32B-Instruct",
-    "name": "Qwen2.5-Coder-32B-Instruct",
-    "open_weight": true,
-    "organization": "Qwen",
-    "param_bucket": "<=32B",
-    "quantization": [
-      "AWQ",
-      "GPTQ",
-      "GGUF"
-    ],
-    "raw_model": "Qwen2.5-Coder-32B-Instruct",
-    "release_date": "2025-08-03",
-    "score": 9.0,
-    "source_kind": "leaderboard",
-    "source_name": "SWE-bench embedded official leaderboard data",
-    "source_url": "https://www.swebench.com/index.html",
-    "total_params_b": 32.0,
-    "vram_gb": {
-      "fp16_bf16": 73.6,
-      "int4_gguf": 18.4,
-      "int8": 36.8
     }
   }
 ]
